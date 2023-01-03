@@ -1,4 +1,4 @@
-FROM python:joecada99:latest
+FROM python:harnessrepo:latest
 WORKDIR /python-pipeline-samples
 ADD . /python-pipeline-samples
 RUN pip install -r requirements.txt
